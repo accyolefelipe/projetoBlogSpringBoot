@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
 
 import com.projeto.blog.model.Post;
 import com.projeto.blog.repository.PostRepository;
-import com.projeto.blog.service.BlogService;
+import com.projeto.blog.service.PostService;
 
 @Service
-public class BlogServiceImple implements BlogService {
+public class PostServiceImple implements PostService {
 	
 	@Autowired
 	PostRepository postRepository;

@@ -6,7 +6,7 @@ import com.projeto.blog.model.Post;
 
 
 
-public interface BlogService {
+public interface PostService {
 	
 	List<Post> findAll();
 	Post findById(Long id);
