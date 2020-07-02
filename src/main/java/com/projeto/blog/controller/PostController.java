@@ -1,4 +1,4 @@
-package com.projeto.blog.controller;
+ package com.projeto.blog.controller;
 
 import java.time.LocalDate;
 import java.util.List;
