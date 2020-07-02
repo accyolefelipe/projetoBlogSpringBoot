@@ -1,1 +1,56 @@
-<H1>olaaaaaaaaaaaaaaaaaaaa</H1>
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<title>MateriasChatas.com</title>
+<meta charset="utf-8"/>
+
+<!-- CSS -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	crossorigin="anonymous">
+
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet" />
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-light bg-light">
+			<span class="navbar-brand mb-0 h1" style="font-weight: bold;">Blog das Materias Chatas</span>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container" style="width: 60%; padding-bottom: 30px;">
+
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb"
+					style="background-color: white; padding-left: 0px;">
+					<li class="breadcrumb-item" aria-current="page"><a href="/posts">Posts</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Novo Post</li>
+				</ol>
+			</nav>
+			<div>
+			 <form method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="titulo" placeholder="Título *">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="autor" placeholder="Autor *">
+                </div>
+
+                <textarea type="text" class="form-control" name="texto" placeholder="Texto *"></textarea>
+
+                <small class="form-text text-muted">(*) Campos obrigatórios</small>
+
+                <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Publicar</button>
+                <a href="/posts" class="btn btn-light" role="button" style="margin-top: 10px;">Cancelar</a>
+			</div>
+			
+		</div>
+	</main>
+</body>
+
+</html>
